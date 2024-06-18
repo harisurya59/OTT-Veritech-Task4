@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTT Platform Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">My OTT</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">TV Shows</a></li>
+                <li><a href="#">Movies</a></li>
+                <li><a href="#">Recently Added</a></li>
+                <li><a href="#">My List</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Search for movies or series...">
+        </div>
+    </header>
+    
+    <section class="hero">
+        <h1>Welcome to My OTT Platform</h1>
+        <p>Watch anywhere. Cancel anytime.</p>
+        <button>Watch Now</button>
+    </section>
+    
+    <section class="content">
+        <h2>Trending Now</h2>
+        <div class="movie-row" id="trending">
+            <!-- Movies will be injected here by JavaScript -->
+        </div>
+    </section>
+
+    <section class="content">
+        <h2>Top Rated</h2>
+        <div class="movie-row" id="top-rated">
+            <!-- Movies will be injected here by JavaScript -->
+        </div>
+    </section>
+
+    <section class="content">
+        <h2>Recommended for You</h2>
+        <div class="movie-row" id="recommended">
+            <!-- Movies will be injected here by JavaScript -->
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 My OTT Platform. All rights reserved.</p>
+    </footer>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
